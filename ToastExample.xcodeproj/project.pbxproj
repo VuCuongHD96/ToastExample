@@ -11,6 +11,10 @@
 		968E08CC2B42611000EF509D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E08CB2B42611000EF509D /* ContentView.swift */; };
 		968E08CE2B42611100EF509D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968E08CD2B42611100EF509D /* Assets.xcassets */; };
 		968E08D12B42611100EF509D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968E08D02B42611100EF509D /* Preview Assets.xcassets */; };
+		968E08D82B42613E00EF509D /* ToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E08D72B42613E00EF509D /* ToastManager.swift */; };
+		968E08DA2B45A81B00EF509D /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E08D92B45A81B00EF509D /* SnackBar.swift */; };
+		968E08DC2B45A83100EF509D /* ToastViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E08DB2B45A83100EF509D /* ToastViewModifier.swift */; };
+		968E08DE2B45A84C00EF509D /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E08DD2B45A84C00EF509D /* View+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		968E08CB2B42611000EF509D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		968E08CD2B42611100EF509D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		968E08D02B42611100EF509D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		968E08D72B42613E00EF509D /* ToastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastManager.swift; sourceTree = "<group>"; };
+		968E08D92B45A81B00EF509D /* SnackBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
+		968E08DB2B45A83100EF509D /* ToastViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewModifier.swift; sourceTree = "<group>"; };
+		968E08DD2B45A84C00EF509D /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				968E08C92B42611000EF509D /* ToastExampleApp.swift */,
+				968E08D92B45A81B00EF509D /* SnackBar.swift */,
 				968E08CB2B42611000EF509D /* ContentView.swift */,
 				968E08CD2B42611100EF509D /* Assets.xcassets */,
 				968E08CF2B42611100EF509D /* Preview Content */,
+				968E08D72B42613E00EF509D /* ToastManager.swift */,
+				968E08DB2B45A83100EF509D /* ToastViewModifier.swift */,
+				968E08DD2B45A84C00EF509D /* View+.swift */,
 			);
 			path = ToastExample;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968E08D82B42613E00EF509D /* ToastManager.swift in Sources */,
 				968E08CC2B42611000EF509D /* ContentView.swift in Sources */,
+				968E08DA2B45A81B00EF509D /* SnackBar.swift in Sources */,
 				968E08CA2B42611000EF509D /* ToastExampleApp.swift in Sources */,
+				968E08DE2B45A84C00EF509D /* View+.swift in Sources */,
+				968E08DC2B45A83100EF509D /* ToastViewModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

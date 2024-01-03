@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let toastManager = ToastManager.shared
+    @State private var number = 0
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -15,7 +19,14 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
+        .onTapGesture {
+            toastManager.showMessage(text: "\(number) --- text")
+            number += 1
+        }
+        .frame(minHeight: 700)
+        .background(Color.red)
         .padding()
+        .makeToast()
     }
 }
 
